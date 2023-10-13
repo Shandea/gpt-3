@@ -1,4 +1,8 @@
-import React from 'react'
+import React from 'react';
+import { ReactDOM } from 'react';
+
+import './App.css';
+import './index.css';
 
 import { Footer, Blog, Possibility, Features, WhatGPT3, Header } from './containers';
 import { Calltoaction, Brand, Navbar } from './components';
@@ -7,7 +11,7 @@ import { Calltoaction, Brand, Navbar } from './components';
 const App = () => {
   return (
     <div className='App'>
-      <div className='gradient_bg'>
+      <div className='gradient__bg'>
         <Navbar />
         <Header />
       </div>
